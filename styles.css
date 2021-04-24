@@ -1,4 +1,6 @@
-* {
+body {
+  background: #6f0765;
+  color: #4c0045;
   font-family: "Montserrat Alternates", sans-serif;
   margin: 0;
   padding: 0;
@@ -16,6 +18,7 @@ header {
   background-color: #eee;
 }
 
+
 #form {
   display: flex;
   flex-direction: column;
@@ -27,14 +30,28 @@ header {
 }
 
 h2 {
+  background: #ffb228;
   font-family: "Caveat", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 3;
   max-width: 90%;
   margin: 0 auto;
+  padding: 20px 0;;
   margin-top: 150px;
 }
 
+span {
+  background: #4c0045;
+  color: #ffb228;
+  font-family: "Caveat", cursive;
+  border-radius: 25px;
+  box-shadow: rgba(228, 8, 217, 0.3) 0px 19px 38px, rgba(187, 14, 187, 0.22) 0px 15px 12px;
+  padding: 10px 20px;
+}
+
 .container {
-  margin: 0 30px;
+  background: #ffb228;
 }
 
 .logo {
