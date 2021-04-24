@@ -1,4 +1,5 @@
 * {
+  font-family: "Montserrat Alternates", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +9,7 @@ header {
   position: fixed;
   top: 0;
   min-height: 75px;
-  padding: 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -22,7 +23,18 @@ header {
   justify-content: center;
   text-align: center;
   height: 200px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.container {
+  margin: 0 30px;
 }
 
 .logo {
@@ -38,10 +50,6 @@ nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-h2 {
-  margin-top: 200px;
 }
 
 #email {
