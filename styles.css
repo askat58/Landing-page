@@ -8,14 +8,16 @@ body {
 }
 
 header {
+  background: #ffb228;
+  border: 5px solid #bd512f;
   position: fixed;
   top: 0;
-  min-height: 75px;
-  padding: 0 20px;
+  min-height: 55px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  padding: 10px 0;
+  width: 100%;
 }
 
 
@@ -29,15 +31,22 @@ header {
   margin-top: 10px;
 }
 
+.form-wrapper {
+  background: #4c0045;
+  border: 2px solid #ffb228;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
 h2 {
   background: #ffb228;
   font-family: "Caveat", cursive;
   font-size: 30px;
   font-weight: bold;
-  line-height: 3;
+  line-height: 2;
   max-width: 90%;
   margin: 0 auto;
-  padding: 20px 0;;
+  padding: 30px 0;
   margin-top: 150px;
 }
 
@@ -46,8 +55,7 @@ span {
   color: #ffb228;
   font-family: "Caveat", cursive;
   border-radius: 25px;
-  box-shadow: rgba(228, 8, 217, 0.3) 0px 19px 38px, rgba(187, 14, 187, 0.22) 0px 15px 12px;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 
 .container {
